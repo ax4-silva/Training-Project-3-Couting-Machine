@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador Profissional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-calculator"></i> Contador Profissional</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>
+                <label for="txti">Início:</label>
+                <input type="number" name="inicio" id="txti" placeholder="Digite o valor inicial">
+            </p>
+            <p>
+                <label for="txtf">Fim:</label>
+                <input type="number" name="fim" id="txtf" placeholder="Digite o valor final">
+            </p>
+            <p>
+                <label for="txtp">Passo:</label>
+                <input type="number" name="passo" id="txtp" placeholder="Digite o intervalo">
+            </p>
+            <p>
+                <input type="button" value="Calcular Sequência" onclick="contar()">
+            </p>
+        </div>
+        <div id="res">
+            <i class="fas fa-arrow-right"></i> Digite os valores acima para iniciar...
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; AlexSander</p>
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
